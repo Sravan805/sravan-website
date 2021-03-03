@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg-dark1{
+    background: #343a40 !important;
+}
+.nav-link{
+    color: #808080;
+    font-weight: 28px;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: #ddd;
+    border-radius: 28px 5px;
+}  
+.active {
+    background-color: #117a8b;
+    color: white;
+    text-align: center;
+    border-radius: 28px 5px;
+}
+.active:hover{
+    background-color: transparent !important;
+}
+
+.sign{
+	background-color: blue;
+	border-radius: 28px 5px;
+	color: #fff;
+	padding: 10px;
+    margin: 1px;
+}
+
+.fa-bars{
+    font-size: 35px;
+}
+
+.item{
+    background-color: #787878;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/contact-us.css">
+
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="./images/Pikachu.jpg" width="40" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html"><small>Home</small></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html"><small>AboutUs</small></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html"><small>Gallery</small></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact-us.html"><small>ContactUs</small></a>
+            </li>
+          </ul>
+        </div>
+    
+        <span class="sign btn" data-toggle="modal" data-target="#myModal">SignUp</span>
+        <span class="sign btn" data-toggle="modal" data-target="#myModal">SignUp</span>
+        <div id="myModal" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>SingUp</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <label>Email</label><br>
+                  <input type="text" class="form-control"><br>
+                  <label>Password</label><br>
+                  <input type="pass" class="form-control">
+                </form>
+                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="button" class="btn btn-success">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-----------Form starts----->
+    <div class="jumbotron bg-info">
+        <h1 class="display-3 text-white text-center">Welcome to our Page</h1>
+        <form class="m ml-auto mx-auto needs-validation" novalidate>
+            <div class="container bg-white py-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="user">Username <i class="fa fa-user"></i></label>
+                            <input type="text" class="form-control" required>
+                            <div class="invalid-feedback">Username is invalid</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="user">Password <i class="fa fa-user"></i></label>
+                            <input type="password" class="form-control" required>
+                            <small class="invalid-feedback">Please enter valid password</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="emailid">Email-Id</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <div class="form-check-inline">
+                        <input type="radio" name="gender" class="form-check-input">
+                        <label class="form-check-label">M</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" name="gender" class="form-check-input">
+                        <label class="form-check-label">F</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">RememberMe</label>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-success btn-lg w-100">Submit</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <!-------Footer starts-->
+    
+    <footer class=" page-footer font-small bg-dark text-white pt-4">
+        
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left mt-3 pb-3">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">COMPANY NAME</h6>
+              <p>
+                Here you can use rows and columns to organize your footer content.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+    
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">PRODUCTS</h6>
+              <a class="text-white text-center" href="#">MD Bootstrap</a><br>
+              <a class="text-white" href="#">MD WordPress</a><br>
+              <a class="text-white" href="#">Brandflow</a><br>
+              <a class="text-white" href="#">Bootstrap</a><br>
+              <a class="text-white" href="#">Angular</a>
+            </div>
+    
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">USEFUL LINKS</h6>
+              <a class="text-white text-center" href="#">Your Account</a><br>
+              <a class="text-white" href="#">Become an Affiliate</a><br>
+              <a class="text-white" href="#">Shipping rates</a><br>
+              <a class="text-white" href="#">Help</a>
+            </div>
+    
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="mb-4 font-weight-bold">CONTACT</h6>
+              <p><i class="fa fa-home mr-3">&nbsp;</i>New York, NY 10012, US</p>
+              <p><i class="fa fa-envelope mr-3">&nbsp;</i>info@gmail.com</p>
+              <p><i class="fa fa-phone mr-3">&nbsp;</i>+01 234 567 88</p>
+              <p><i class="fa fa-print mr-3">&nbsp;</i>+01 234 567 89</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7 col-lg-8">
+              <p class="text-center text-md-left">&copy; 2020 Copyright:
+                <a class="text-white" href="#"><b>MDBootstrap.com</b></a>
+              </p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+                <a href="#"><i class="fa fa-facebook-f p-2"></i></a>
+                <i class="fa fa-twitter p-3"></i>
+                <i class="fa fa-google-plus p-2"></i>
+                <i class="fa fa-linkedin p-2"></i>
+               </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-----------Footer ends------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------Form ends------->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

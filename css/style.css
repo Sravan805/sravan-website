@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.nav-link{
+    color: #808080;
+    font-weight: 28px;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: #ddd;
+    border-radius: 28px 5px;
+}  
+.active {
+    background-color:#117a8b ;
+     
+    text-align: center;
+    border-radius: 28px 5px;
+}
+.active a{
+    color: white;
+}
+.active:hover{
+    background-color: transparent !important;
+}
+
+.sign{
+	background-color: blue;
+	border-radius: 28px 5px;
+	color: #fff;
+	padding: 10px;
+    margin: 1px;
+}
+
+.fa-bars{
+    font-size: 35px;
+}
+
+.carousel-item{
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item h1{ 
+position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5.5rem;
+  font-weight: 300;
+}
+.carousel-item h2{
+    position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5.5rem;
+  font-weight: 300;
+}
+.carousel-item h3{
+    position: absolute;
+      top: 85%;
+      left:50%;
+      transform: translate(-60%, -60%);
+    font-size: 1.8rem;
+}
+.carousel-item p{ 
+    position: absolute;
+      top: 75%;
+      left:50%;
+      transform: translate(-60%, -60%);
+    font-size: 1.8rem;
+    }
+.btn{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.btn-success{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 100;
+    background-color: #28a745;
+    text-decoration: none !important; 
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-primary{
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100;
+    background-color: blue;
+    text-decoration: none !important;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.card {
+    transition: transform 0.2s ease;
+  }
+  
